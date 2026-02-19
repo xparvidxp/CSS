@@ -1,0 +1,41 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+body > div {
+    display: grid;
+    place-items: center;
+}
+
+
+ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+    list-style-type: none;
+    width: 15vw;
+    height: 15vw;
+
+    border: 1px solid grey;
+}
+
+@media (max-width:600px) {
+
+li {
+    width: 20vw;
+    height: 20vw;
+}    
+
+
+}
