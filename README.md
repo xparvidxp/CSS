@@ -102,7 +102,7 @@ zorgt ervoor dat je de nieuwe rendering engine gebruikt.
 
 // Igalia is een spaans opensource bedrijf. Veel verstand van browsers, geen browsermakers.
 
-# Weekly Nerd - 
+# Weekly Nerd - Nils Binder
 
 combine fun coding in the workfield: it doesn’t always have to be boring
 vroeger gebruikte men programma’s zoals photoshop of illustrator, maar dat is nu niet meer zo
