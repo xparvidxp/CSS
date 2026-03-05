@@ -1,41 +1,168 @@
-* { 
+* {
+    
     margin: 0; 
     padding: 0; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+
+/* De verschillende patterns */
+
+    --g1:
+        repeating-linear-gradient(
+            45deg, 
+            yellow 0px 8px, 
+            transparent 8px 25px );
+
+    --g2:
+        linear-gradient(
+            45deg,
+            yellow 50%,
+            transparent 50%);
+
+    --g3:
+        linear-gradient(
+            90deg,
+            yellow 50%,
+            transparent 50%);
+
+    --g4:
+        radial-gradient(
+            circle,
+            yellow 50%,
+            transparent 50%);
+            
+    --g5:
+        repeating-radial-gradient(
+            circle,
+            yellow 50%,
+            transparent 50%);
+
+    --g6:
+    linear-gradient(
+        45deg, yellow 50%, transparent 50%);
+
 }
 
-body {
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr;
-}
-
-body > div {
-    display: grid;
-    place-items: center;
-}
-
+/* Stylen van het grid */
 
 ul {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+
+}
+
+ul:nth-of-type(1) {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    z-index: 1;
+
+    li {
+        width: 100%;
+        height: 100%;
+        background-color:black;
+    }
+}
+
+ul:nth-of-type(2) {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 2;
+
+    li {
+        width: 100%;
+        height: 100%;
+        background-color:transparent;
+
+    }
 }
 
 li {
     list-style-type: none;
-    width: 15vw;
-    height: 15vw;
-
-    border: 1px solid grey;
+    color:grey;
 }
 
-@media (max-width:600px) {
+/* Selecteren van verschillende vakjes, en die stylen */
 
-li {
-    width: 20vw;
-    height: 20vw;
-}    
+div:has(label:nth-of-type(1) input:checked) ul {
+    li:nth-child(3n+1)  { 
+        background-image: var(--g2); 
+    }
+    li:nth-child(9n+4)  {
+        background-image: var(--g3);
+    }
+    li:nth-child(5n+2) {
+        background-image: var(--g4);
+    }
+    li:nth-child(13n+2) {
+        background-image: var(--g5);
+    }
+    li:nth-child(22n+3) {
+        background-image: var(--g1);
+    }
 
-
+    li:nth-child(12n+3) {
+        background-image: var(--g6);
+        background-size: 22px 22px;
+    }
 }
+
+div:has(label:nth-of-type(2) input:checked) ul {
+    li:nth-child(3n+1)  { 
+        background-image: var(--g4); 
+    }
+    li:nth-child(9n+4)  {
+        background-image: var(--g2);
+    }
+    li:nth-child(5n+2) {
+        background-image: var(--g3);
+    }
+    li:nth-child(13n+2) {
+        background-image: var(--g5);
+    }
+    li:nth-child(11n+2) {
+        background-image: var(--g1);
+    }
+    li:nth-child(14n+3) {
+        background-image: var(--g6);
+        background-size: 22px 22px;
+    }
+}
+
+div:has(label:nth-of-type(3) input:checked) ul {
+    li:nth-child(3n+1)  { 
+        background-image: var(--g5); 
+    }
+    li:nth-child(9n+4)  {
+        background-image: var(--g3);
+    }
+    li:nth-child(5n+2) {
+        background-image: var(--g2);
+    }
+    li:nth-child(13n+2) {
+        background-image: var(--g4);
+    }
+    li:nth-child(21n+2) {
+        background-image: var(--g1);
+    }
+    li:nth-child(19n+3) {
+        background-image: var(--g6);
+        background-size: 22px 22px;
+    }   
+}
+
+/* 
+CSS patterns https://www.magicpattern.design/tools/css-backgrounds 
+Combinators https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Combinators
+            https://www.w3schools.com/css/css_combinators.asp
+Selectors   https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors
+            https://www.w3schools.com/cssref/css_pr_inset.php
+            https://www.w3schools.com/cssref/pr_pos_z-index.php
+Center absolute object
+            https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div
+*/
