@@ -11,18 +11,6 @@ Vandaag presentaties van de verschillende CSS thema's. Het was interessant, en i
 
 Een plan gemaakt aan hoe ik de artifaction opdracht wil gaan uitvoeren. En een klein beginnetje gemaakt. Ik wil een list stylen als een grid met daarin elke fr gestyled met een shape erin. Morgen hebben we alleen gesprekken in het rooster staan. Na de vakantie wil ik door met het maken van verschillende patronen en shapes.
 
-# Dag 3 - Woensdag 4 maart
-
-Check-out met Jeppe
-
-Vandaag begonnen met het maken van gradients die in het grid komen door selectors. Ik loop er tegenaan om het random in het grid te zetten, omdat er geen duidelijke manier is waarop je random values in CSS kunt genereren. Morgen wil ik dit verder uitzoeken en uitwerken. Vandaag niet zo veel geleerd, maar wel erachter gekomen wat ik nog kan leren.
-
-# Dag 4 - Donderdag 4 maart
-
-Check-out met Kelly
-
-Vandaag liep ik erg lang vast over hoe ik verder kon met de patterns. Ik heb bedacht om een 8x8 grid met een 4x4 grid eroverheen te leggen waardoor je een combinatie van vormen kunt krijgen. Random values kunnen niet in CSS, dus een pseudo-random manier bedacht met radio buttons. Morgen ga ik verder met o.a. blending modes.
-
 # Weekly Nerd - Peter Paul Koch 
 
 * Een browser is: 
@@ -102,6 +90,23 @@ zorgt ervoor dat je de nieuwe rendering engine gebruikt.
 
 // Igalia is een spaans opensource bedrijf. Veel verstand van browsers, geen browsermakers.
 
+# Week 1 voorbij
+
+In week 1 heb ik gewerkt aan het leren van nieuwe CSS-technieken en het voorbereiden van mijn Artifaction opdracht. Samen met Jeppe, Eva en Iris heb ik een website gemaakt waarin we de `:has()` selector hebben onderzocht en laten zien hoe je deze op verschillende manieren kunt gebruiken. Hierdoor heb ik geleerd hoe je met deze selector bepaalde elementen kunt selecteren op basis van hun inhoud. Daarnaast heb ik presentaties gevolgd over verschillende CSS-thema’s, zoals selectors, media queries en shapes, die ik wil toepassen in mijn eigen project. Ik heb ook een eerste plan gemaakt voor mijn Artifaction opdracht en ben begonnen met een opzet waarin ik een lijst wil stylen als een grid met daarin verschillende vormen. Tijdens de Weekly Nerd van Peter Paul Koch heb ik geleerd hoe browsers werken, bijvoorbeeld hoe HTML, CSS en JavaScript worden verwerkt via de DOM, de rendering engine en concepts zoals render blocking.
+
+
+# Dag 3 - Woensdag 4 maart
+
+Check-out met Jeppe
+
+Vandaag begonnen met het maken van gradients die in het grid komen door selectors. Ik loop er tegenaan om het random in het grid te zetten, omdat er geen duidelijke manier is waarop je random values in CSS kunt genereren. Morgen wil ik dit verder uitzoeken en uitwerken. Vandaag niet zo veel geleerd, maar wel erachter gekomen wat ik nog kan leren.
+
+# Dag 4 - Donderdag 4 maart
+
+Check-out met Kelly
+
+Vandaag liep ik erg lang vast over hoe ik verder kon met de patterns. Ik heb bedacht om een 8x8 grid met een 4x4 grid eroverheen te leggen waardoor je een combinatie van vormen kunt krijgen. Random values kunnen niet in CSS, dus een pseudo-random manier bedacht met radio buttons. Morgen ga ik verder met o.a. blending modes.
+
 # Weekly Nerd - Nils Binder
 
 combine fun coding in the workfield: it doesn’t always have to be boring
@@ -126,3 +131,13 @@ net zoals first child selector is er ook een first line selector
 https://ernst-co.com/de/
 https://www.bonabry.de/en/services/
 https://www.bonamic.de/
+
+# Week 2 voorbij
+
+In week 2 heb ik verder gewerkt aan mijn Artifaction opdracht en geëxperimenteerd met patronen in een grid. Ik ben begonnen met het maken van gradients die via CSS-selectors op verschillende elementen in het grid worden toegepast. Daarbij liep ik tegen het probleem aan dat CSS geen echte random waarden kan genereren, waardoor het lastig was om variatie in het grid te krijgen. Uiteindelijk heb ik een oplossing bedacht door een 8×8 grid te combineren met een 4×4 grid erbovenop, waardoor verschillende combinaties van vormen ontstaan. Om het effect van willekeur te creëren heb ik een pseudo-random systeem bedacht met radio buttons. Daarnaast was er een lezing van Nils Binder, waarin hij vertelde hoe design en development steeds meer samenkomen en hoe je met moderne CSS-technieken zoals grid en animaties creatieve en interactieve layouts kunt maken.
+
+
+# Dag 5
+
+
+
