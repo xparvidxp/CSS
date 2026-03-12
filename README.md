@@ -1,3 +1,5 @@
+# LET OP!! ** Gebruik voor deze website Safari Technology Preview **
+
 # Dag 1 – Woensdag 18 februari
 
 Ik heb vandaag samen met Jeppe, Eva en Iris een website gebouwd waarin we de has() selector laten zien en hoe je die kunt gebruiken. Dat heeft 3 uur gekost. Ik heb geleerd wat has() doet en hoe je die op verschillende manieren kunt toepassen. Bijvoorbeeld een search query, als er in een list element een img zit dan… etc.
@@ -137,7 +139,54 @@ https://www.bonamic.de/
 In week 2 heb ik verder gewerkt aan mijn Artifaction opdracht en geëxperimenteerd met patronen in een grid. Ik ben begonnen met het maken van gradients die via CSS-selectors op verschillende elementen in het grid worden toegepast. Daarbij liep ik tegen het probleem aan dat CSS geen echte random waarden kan genereren, waardoor het lastig was om variatie in het grid te krijgen. Uiteindelijk heb ik een oplossing bedacht door een 8×8 grid te combineren met een 4×4 grid erbovenop, waardoor verschillende combinaties van vormen ontstaan. Om het effect van willekeur te creëren heb ik een pseudo-random systeem bedacht met radio buttons. Daarnaast was er een lezing van Nils Binder, waarin hij vertelde hoe design en development steeds meer samenkomen en hoe je met moderne CSS-technieken zoals grid en animaties creatieve en interactieve layouts kunt maken.
 
 
-# Dag 5
+# Dag 5 - Woensdag 11 Maart
 
+Vandaag bezig geweest met child-index, en Grid-column: 1 / span 2;
+Het lukt niet om met random en variabelen te bepalen waar een 2x2 of 3x3 in het grid terecht komt. Hier ga ik morgen mee verder.
 
+# Dag 6 - Donderdag 12 Maart
 
+Vandaag gefixt met random() hoe je variabelen kunt opslaan en de waarden hergebruiken. Ook gezorgd dat de blokjes niet meer diagonaal in het grid worden geplaatst maar echt random. Door te werken met grid-column-start en grid-row-start etc.. Dit heeft 4 uur geduurd. Ik ga morgen verder met zorgen dat ik voldoe aan de randvoorwaarden.
+
+# Weekly Nerd - Robert Boersma - NL design system
+
+Opbouw formulier
+    - Introducttietekst
+    - Informatie vragen die nodig is
+    - Gebruiker kan voor inzending de ingevoerde waardes controleren,
+    wijzigen of ongedaan maken
+    - Na volgende of verzenden verschijnt een samenvatting
+    - Na verzenden verschijnt een duidelijke bevesting
+
+Op letten
+
+    - Alleen informatie vragen die nodig is
+    - Verplichte velden goed aangeven
+    - Uitleggen waarom je specieke informatie nodig hebt
+    - Gebruiker dezelfde informatie niet twee keer vragen
+    - Geen jargon of gekke afkortingen gebruiken
+
+Design
+
+    - Check kleurcontrast van componenten. Rand moet voldoende contrast hebben
+    - Check het kleurcontrast van subtielere tekst. Bvb placeholder en beschrijving
+    - 44x44px is gebruiksvriendelijk, min-width min-height
+
+    - Plaats buttons aan het begin van de regel
+    - De navigatie is consistent
+    - Het is duidelijk wanneer het formulier verzonden wordt
+    - Elk invoerveld heeft een zichtbaar label bovenaan
+    - Er staat 'verplicht' of 'niet verplicht' in tekst
+
+    - Logische volgorde?
+    - Contactmogelijkheden voor hulp
+        of andere vormen van hulp, begin van formulier, bovenaan bij formulier, footer, controlepagina, bevestiging
+    - Voortgang wordt getoond
+
+    TIP: Zet de button in een <ul> dan wordt uitgesproken hoeveel buttons er zijn voor screenreader 
+
+Makkelijker invullen
+
+    - Als gebruiker is ingelogd -> bekende gegevens al invullen
+    - Knippen en plakken overal toegestaan
+    - Autocomplete
