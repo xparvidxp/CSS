@@ -190,3 +190,25 @@ Makkelijker invullen
     - Als gebruiker is ingelogd -> bekende gegevens al invullen
     - Knippen en plakken overal toegestaan
     - Autocomplete
+
+TIP: width en height zijn zooo 2020...    
+    inline-size ipv width
+    block-size ipv height
+
+Loop door je site heen met alleen toetsenbord. Je moet alles kunnen aanaspreken en bereiken met tab.
+
+https://www.magicpattern.design/tools/css-backgrounds 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Combinators
+https://www.w3schools.com/css/css_combinators.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors
+https://www.w3schools.com/cssref/css_pr_inset.php
+https://www.w3schools.com/cssref/pr_pos_z-index.php
+https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div
+https://css-tricks.com/almanac/functions/r/random/
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/round
+https://www.youtube.com/watch?v=mXrBC_mZfTw
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
+https://www.w3schools.com/cssref/func_clamp.php
+https://www.w3schools.com/cssref/css3_pr_row-gap.php
+https://www.w3schools.com/html/html_lists.asp
