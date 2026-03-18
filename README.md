@@ -148,6 +148,17 @@ Het lukt niet om met random en variabelen te bepalen waar een 2x2 of 3x3 in het 
 
 Vandaag gefixt met random() hoe je variabelen kunt opslaan en de waarden hergebruiken. Ook gezorgd dat de blokjes niet meer diagonaal in het grid worden geplaatst maar echt random. Door te werken met grid-column-start en grid-row-start etc.. Dit heeft 4 uur geduurd. Ik ga morgen verder met zorgen dat ik voldoe aan de randvoorwaarden.
 
+# Week 3 voorbij
+
+In week 3 heb ik gewerkt aan het genereren van een grid met variabele blokgroottes. In het begin liep ik tegen problemen aan bij het combineren van random() en variabelen om grotere blokken zoals 2×2 en 3×3 correct te positioneren. Ook werden de blokken niet goed verdeeld over het grid. CSS werkt anders dan verwacht met het opslaan van variabelen. Hier liep ik lang op vast.
+
+Ik heb de plaatsing verbeterd door gebruik te maken van grid-column-start en grid-row-start, waardoor de blokken daadwerkelijk willekeurig in het grid verschijnen in plaats van in een vast patroon.
+
+
+# Dag 7 - Woensdag 18 Maart 
+
+Vandaag tijd gestoken in het voldoen van alle randvoorwaarden, zoals dark-light mode en typografie. Ook heb ik een easteregg afgemaakt. Dit heeft de hele dag geduurd. Ik ben tevreden met het resultaat wat ik heb neergezet. In de toekomst ga ik kijken of ik iets beter kan plannen om het minder stressvol te maken op de laatste dag.
+
 # Weekly Nerd - Robert Boersma - NL design system
 
 Opbouw formulier
@@ -197,18 +208,13 @@ TIP: width en height zijn zooo 2020...
 
 Loop door je site heen met alleen toetsenbord. Je moet alles kunnen aanaspreken en bereiken met tab.
 
-https://www.magicpattern.design/tools/css-backgrounds 
+/* Nog een keer alle bronnen:
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Combinators
 https://www.w3schools.com/css/css_combinators.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors
-https://www.w3schools.com/cssref/css_pr_inset.php
-https://www.w3schools.com/cssref/pr_pos_z-index.php
-https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div
 https://css-tricks.com/almanac/functions/r/random/
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/round
 https://www.youtube.com/watch?v=mXrBC_mZfTw
 https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
-https://www.w3schools.com/cssref/func_clamp.php
-https://www.w3schools.com/cssref/css3_pr_row-gap.php
-https://www.w3schools.com/html/html_lists.asp
+*/
