@@ -101,6 +101,11 @@ section {
 
 div {
     mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+div:nth-of-type(11), div:nth-of-type(12), div:nth-of-type(13) {
+    pointer-events: all;
 }
 
 label:has(input:checked) {

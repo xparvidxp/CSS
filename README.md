@@ -208,6 +208,15 @@ TIP: width en height zijn zooo 2020...
 
 Loop door je site heen met alleen toetsenbord. Je moet alles kunnen aanaspreken en bereiken met tab.
 
+![alt-text](images/Screenshot%202026-03-19%20at%203.16.59 PM.png)
+
+# Eindreflectie
+
+Ik ben erg tevreden met het eindresultaat. Ik ben begonnen met een omslachtige oplossing, en heb na wat tips een goede manier gevonden om het te maken. 
+Nieuwe code gebruikt zoals random(), waar veel tijd in zat om uit te zoeken hoe het werkte. Ik had wel het darkmode probleem zonder JS kunnen oplossen. Door gebruik te maken van prefers color scheme dark mode. Daardoor zou je wel kunnen refreshen en de darkmode werkend houden. Verder had ik graag de titel zo willen maken dat die ook op elke refresh veranderde, maar je kan met random() (nog) niet verschillende variabelen uitkiezen.
+
+Hier nog een foto van het eindresultaat
+
 /* Nog een keer alle bronnen:
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Combinators
 https://www.w3schools.com/css/css_combinators.asp
